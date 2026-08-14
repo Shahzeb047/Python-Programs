@@ -1,0 +1,12 @@
+import sys
+number = 100
+name = "Shahzeb"
+my_list=[99,89,79]
+
+integer_size = sys.getsizeof(number)
+string_size = sys.getsizeof(name)
+list_size = sys.getsizeof(my_list)
+
+print("Size of integer :",integer_size ,"byte")
+print("Size of String : " ,string_size ,"byte")
+print("Size of lisst" ,list_size ,"byte")
