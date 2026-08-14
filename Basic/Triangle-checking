@@ -1,0 +1,20 @@
+a = int(input("a :"))
+b = int(input("b :"))
+c = int(input("c :"))
+
+if a+b>c and a+c>b and b+c>a:
+
+    if a==b==c:
+        print("valid  tringle ")
+        print("Triangle type : Equilateral")
+
+    elif a==b or b==c or a==c:
+        print("Valid triange ")
+        print("Triange type : Isosceles")
+
+    else:
+        print("Valid triangle ")
+        print("Triangle type : Scalene")
+
+else:
+    print("Invalid triange")
