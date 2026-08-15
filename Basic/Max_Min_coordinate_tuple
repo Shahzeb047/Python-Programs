@@ -1,0 +1,14 @@
+coordinates = ((10,30),(14,5),(50,45))
+
+Max = coordinates[0][0]
+Min = coordinates[0][0]
+for pair in coordinates:
+    for num in pair:
+        if num>Max:
+            Max = num
+    
+        if num<Min:
+            Min=num
+
+print("Maximum :",Max)
+print("Minimum :",Min)
