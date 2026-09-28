@@ -10,5 +10,5 @@ for pair in coordinates:
         if num<Min:
             Min=num
 
-print("maximum :",Max)
-print("minimum :",Min)
+print("Maximum :",Max)
+print("Minimum :",Min)
