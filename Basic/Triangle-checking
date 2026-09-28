@@ -1,6 +1,6 @@
-a = int(input("a :"))
-b = int(input("b :"))
-c = int(input("c :"))
+a = int(input("A :"))
+b = int(input("B :"))
+c = int(input("C :"))
 
 if a+b>c and a+c>b and b+c>a:
 
