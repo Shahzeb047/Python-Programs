@@ -4,4 +4,4 @@ while i<=10:
     sum = sum+i
     i+=1
 
-print("Sum : ", sum)
+print("sum: ", sum)
