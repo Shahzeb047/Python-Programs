@@ -1,4 +1,4 @@
-num = int(input("Enter THE number: "))
+num = int(input("Enter the number: "))
 
 while num>=10:
     sum=0
