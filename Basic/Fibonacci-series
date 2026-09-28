@@ -1,4 +1,4 @@
-n = int(input("Enter the number :"))
+n = int(input("Enter The number :"))
 a=0
 b=1
 for i in range(n):
