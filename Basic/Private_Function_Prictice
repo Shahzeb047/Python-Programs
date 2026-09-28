@@ -3,7 +3,7 @@ class person:
   
 
     def __hello(self):
-        print("HEllo Person")
+        print("Hello Person")
 
     def welcome(self):
         self.__hello()
