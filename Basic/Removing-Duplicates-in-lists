@@ -6,5 +6,5 @@ for num in numbers:
     if num not in new_list:
         new_list.append(num)
 
-print("origional : ", numbers)
-print("after removing duplicates :", new_list)
+print("Origional : ", numbers)
+print("After removing duplicates :", new_list)
