@@ -6,6 +6,6 @@ while num>0:
     reverse=reverse*10+digit
     num = num//10
 if origional==reverse:
-    print("Palindrom")
+    print("PALINDROM")
 else:
     print("Not palindrom")
