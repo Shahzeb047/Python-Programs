@@ -6,7 +6,7 @@ class Account:
     # Debit method
     def debit(self, amount):
         self.balance -= amount
-        print("Rs,",amount,"Was debited")
+        print("Rs. ",amount,"was debited")
         print("Total balance =",self.get_balance())
 
     # Credit method
