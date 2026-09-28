@@ -1,0 +1,18 @@
+import random
+
+target = random.randint(1,100)
+
+while True:
+    userChoice = int(input("Guess the number:"))
+
+    if(userChoice == target):
+        print("Success: You guess the correct number")
+        break
+    
+    elif(userChoice<target):
+        print("You Guess the very small number as your target")
+
+    else:
+        print("Your Guess the very highest number as your target")
+
+print("......Game over......")
