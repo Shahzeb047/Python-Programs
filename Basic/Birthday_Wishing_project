@@ -1,0 +1,116 @@
+import time
+import os
+import sys
+
+# ---------- COLORS ----------
+PINK = "\033[95m"
+MAGENTA = "\033[35m"
+CYAN = "\033[96m"
+YELLOW = "\033[93m"
+GREEN = "\033[92m"
+WHITE = "\033[97m"
+RESET = "\033[0m"
+
+# ---------- FUNCTIONS ----------
+def clear():
+    os.system("cls" if os.name == "nt" else "clear")
+
+
+def type_text(text, delay=0.04):
+    for char in text:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(delay)
+    print()
+
+
+def line():
+    print(PINK + "♡" * 55 + RESET)
+
+
+# ---------- START ----------
+clear()
+
+name = input(PINK + "\n💌 Enter their name: " + RESET)
+
+clear()
+
+line()
+type_text(PINK + "          ✨ A LITTLE SURPRISE ✨" + RESET, 0.05)
+line()
+
+time.sleep(1)
+
+type_text("\n" + MAGENTA + "Preparing something special..." + RESET, 0.06)
+time.sleep(1)
+
+type_text(CYAN + "Because today is not an ordinary day..." + RESET, 0.06)
+time.sleep(1)
+
+type_text(YELLOW + "Today is YOUR special day. 🎂" + RESET, 0.06)
+
+time.sleep(2)
+clear()
+
+# ---------- BIRTHDAY ----------
+print(PINK + """
+        💕       💕       💕
+     💕     ✨       ✨     💕
+   💕                         💕
+  💕     🎂 HAPPY BIRTHDAY 🎂  💕
+   💕                         💕
+     💕                   💕
+        💕       💕       💕
+""" + RESET)
+
+time.sleep(1)
+
+type_text(MAGENTA + f"\n             Dear {name} ♡" + RESET, 0.07)
+
+time.sleep(1)
+
+line()
+
+type_text(WHITE + "\nToday, I just want to say..." + RESET, 0.06)
+
+type_text(PINK + "You deserve all the happiness in the world. ❤️" + RESET, 0.05)
+
+type_text(CYAN + "May your smile always stay bright. ✨" + RESET, 0.05)
+
+type_text(YELLOW + "May your dreams become reality. 🌙" + RESET, 0.05)
+
+type_text(GREEN + "And may every new year of your life be more beautiful. 🌸" + RESET, 0.05)
+
+time.sleep(2)
+
+print("\n")
+
+line()
+
+print(PINK + """
+                 🎁
+              🎁 🎁 🎁
+           🎁 🎁 🎁 🎁 🎁
+          ┌───────────────┐
+          │   FOR YOU ❤️  │
+          └───────────────┘
+""" + RESET)
+
+time.sleep(1)
+
+type_text(MAGENTA + "\n             🎂  🥳  🎂" + RESET)
+type_text(PINK + f"       HAPPY BIRTHDAY {name.upper()}! ❤️" + RESET, 0.07)
+
+time.sleep(1)
+
+line()
+
+type_text(YELLOW + "\n        ✨ Stay happy. Stay blessed. ✨" + RESET)
+type_text(PINK + "             With lots of love ❤️" + RESET)
+
+line()
+
+print("\n")
+type_text(CYAN + "              🎉 THE END 🎉" + RESET, 0.08)
+
+input("\nPress Enter to close...")
