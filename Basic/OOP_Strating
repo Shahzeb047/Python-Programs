@@ -9,5 +9,5 @@ class Student:
             sum +=val
         print('hi',self.name,"your avg score is:",sum/3) 
 
-s1 = Student("Shahzeb", [99,98,97])
+s1 = Student("Shah", [99,98,97])
 s1.get_avg()
