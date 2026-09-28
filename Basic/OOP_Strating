@@ -7,7 +7,7 @@ class Student:
         sum = 0
         for val in self.marks:
             sum +=val
-        print('hi',self.name,"your avg score is:",sum/3) 
+        print('hi',self.name,"your avrg score is:",sum/3) 
 
 s1 = Student("Shah", [99,98,97])
 s1.get_avg()
