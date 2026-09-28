@@ -3,7 +3,7 @@ b=int(input("enter b"))
 c=int(input("enter c"))
 
 if a>b & a>c:
-    print("a is greater")
+    print("a is greater than both")
 elif b>a & b>c:
     print("b is greater")
 else:
