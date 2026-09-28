@@ -1,5 +1,5 @@
 class person:
-    __name = "Shah "   #this is an private atribute
+    __name = "Shahzeb "   #this is an private atribute
   
 
     def __hello(self):
