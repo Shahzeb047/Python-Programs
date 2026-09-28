@@ -18,6 +18,6 @@ class Toyotacar(car):
         super().start()
 
 car1 = Toyotacar("Fartunar","Electric")
-#car2 = Toyotacar("prius")
+#car2 = Toyotacar("Prius")
 print(car1.type) 
   
