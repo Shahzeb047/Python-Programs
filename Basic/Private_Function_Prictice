@@ -1,0 +1,12 @@
+class person:
+    __name = "Shah "   #this is an private atribute
+  
+
+    def __hello(self):
+        print("HEllo Person")
+
+    def welcome(self):
+        self.__hello()
+
+p1 = person()
+print(p1.welcome())
