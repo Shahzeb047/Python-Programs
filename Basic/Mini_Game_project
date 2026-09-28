@@ -3,7 +3,7 @@ import random
 target = random.randint(1,100)
 
 while True:
-    userChoice = int(input("Guess the number:"))
+    userChoice = int(input("guess The number:"))
 
     if(userChoice == target):
         print("Success: You guess the correct number")
